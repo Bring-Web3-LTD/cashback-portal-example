@@ -1,0 +1,272 @@
+/* Light mode */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --bg: #09132C;
+  --header-bg: #09132C;
+
+  --title-f-s: 30px;
+  --title-f-w: 700;
+  --title-f-c: #fff;
+
+  --subtitle-f-s: 20px;
+  --subtitle-f-w: 500;
+  --subtitle-f-c: #FFFFFFBF;
+
+  --header-btn-bg: transparent;
+  --header-btn-f-s: 14px;
+  --header-btn-f-w: 500;
+  --header-btn-f-c: #88AAFA;
+  --header-btn-border-w: 1px;
+  --header-btn-border-c: #88AAFA;
+
+  --rewards-bg: #263C72;
+
+  --rewards-img-size: 40px;
+
+  --claim-img-bg: transparent;
+  --claim-img-border-w: 0;
+  --claim-img-border-c: transparent;
+  --claim-img-radius: 50%;
+
+  --pending-img-bg: transparent;
+  --pending-img-border-w: 0;
+  --pending-img-border-c: transparent;
+  --pending-img-radius: 50%;
+
+  --rewards-text-f-s: 18px;
+  --rewards-text-f-w: 700;
+  --claim-text-f-c: #fff;
+  --pending-text-f-c: #fff;
+
+  --rewards-usd-f-s: 12px;
+  --rewards-usd-f-w: 500;
+  --claim-usd-f-c: #88AAFA;
+  --pending-usd-f-c: #88AAFA;
+
+  --rewards-amount-f-s: 40px;
+  --rewards-amount-f-w: 700;
+
+  --claim-amount-f-c: linear-gradient(137deg, #E16BFF 0.62%, #FB3B80 96.06%);
+
+  --pending-amount-f-c: #C7D7FF;
+
+  --rewards-btn-f-s: 16px;
+  --rewards-btn-f-w: 600;
+  --rewards-btn-radius: 8px;
+
+  --primary-btn-f-s: 16px;
+  --primary-btn-f-w: 500;
+  --primary-btn-f-c: #09132C;
+  --primary-btn-radius: 8px;
+  --primary-btn-border-w: 0;
+  --primary-btn-border-c: transparent;
+  --primary-btn-bg: linear-gradient(137deg, #E16BFF 0.62%, #FB3B80 96.06%);
+  --primary-btn-hover-bg: linear-gradient(137deg, #E16BFF 0.62%, #FB3B80 96.06%);
+  --primary-btn-pressed-bg: linear-gradient(137deg, #E16BFF 0.62%, #FB3B80 96.06%);
+  --primary-btn-disabled-bg: gray;
+  --primary-btn-disabled-f-c: #fff;
+
+  --pending-btn-f-c: #88AAFA;
+  --pending-btn-border-c: #88AAFA;
+  --pending-btn-border-w: 2px;
+  --pending-btn-bg: transparent;
+
+  --pending-btn-hover-f-c: #3154CB;
+  --pending-btn-hover-border-c: #3154CB;
+  --pending-btn-hover-border-w: 2px;
+  --pending-btn-hover-bg: #E4E8F7;
+
+  --pending-btn-pressed-f-c: #3154CB;
+  --pending-btn-pressed-border-c: #3154CB;
+  --pending-btn-pressed-border-w: 2px;
+  --pending-btn-pressed-bg: #C4CFF5;
+
+  --retailer-card-bg: #192749;
+  --retailer-card-border-w: 0;
+  --retailer-card-border-color: transparent;
+  --retailer-card--hover-border-color: #242838;
+
+  --retailer-card-img-border-c: #DCE0E9;
+  --retailer-card-img-border-w: 1px;
+
+  --retailer-card-flag-f-s: 13px;
+  --retailer-card-flag-f-w: 600;
+  --retailer-card-flag-f-c: #fff;
+  --retailer-card-flag-bg: linear-gradient(137deg, #E16BFF 0.62%, #FB3B80 96.06%);
+  --retailer-card-flag-radius: 12px;
+
+  --retailer-card-name-f-s: 16px;
+  --retailer-card-name-f-w: 500;
+  --retailer-card-name-f-c: #FFF;
+
+  --retailer-card-amount-f-s: 11px;
+  --retailer-card-amount-f-c: #E16BFF;
+  --retailer-card-amount-f-w: 600;
+  --retailer-card-amount-bg: #09132C;
+
+  --deals-amount-f-s: 18px;
+  --deals-amount-f-w: 700;
+  --deals-amount-f-c: #fff;
+
+  --loading-msg-f-s: 12px;
+  --loading-msg-f-w: 500;
+  --loading-msg-f-c: #fff;
+
+  --filter-btn-f-s: 14px;
+  --filter-btn-f-w: 500;
+  --filter-btn-f-c: #E7E7E7;
+  --filter-btn-bg: #9BAFB226;
+  --filter-btn-hover-bg: #C4CFF5;
+  --filter-btn-hover-f-c: #4B6DDE;
+  --filter-btn-border-w: 0;
+  --filter-btn-border-c: transparent;
+  --filter-btn-radius: 8px;
+
+  --category-btn-bg: none;
+  --category-btn-f-s: 14px;
+  --category-btn-f-w: 400;
+  --category-btn-f-c: #C7D7FF;
+  --category-btn-border-w: 1px;
+  --category-btn-border-c: #A0B3F2;
+  --category-btn-radius: 8px;
+  --category-btn-hover-bg: #4B6DDE;
+  --category-btn-hover-f-c: #fff;
+  --category-btn-hover-f-w: 400;
+  --category-btn-hover-border-w: 0;
+  --category-btn-hover-border-c: #A0B3F2;
+  --category-btn-hover-radius: 8px;
+
+  --modal-offset-top: -112px;
+  --modal-bg: #192749;
+  --modal-overlay-bg: #0000007a;
+  --modal-border-w: 0;
+  --modal-border-c: transparent;
+  --modal-radius: 24px;
+  --modal-title-f-s: 20px;
+  --modal-title-f-w: 600;
+  --modal-title-f-c: white;
+  --modal-paragraph-f-s: 14px;
+  --modal-paragraph-f-w: 400;
+  --modal-paragraph-f-c: white;
+
+  --modal-claim-amount-f-s: 40px;
+  --modal-claim-amount-f-w: 500;
+  --modal-claim-amount-f-c: #242838;
+  --modal-claim-details-bg: #fff;
+  --modal-claim-details-border-w: 1px;
+  --modal-claim-details-border-c: #DCE0E9;
+  --modal-claim-details-radius: 8px;
+  --modal-claim-disclaimer-f-s: 16px;
+  --modal-claim-disclaimer-f-w: 400;
+  --modal-claim-disclaimer-f-c: black;
+  --modal-claim-address-bg: linear-gradient(180deg, #E4E8F7 0%, #C6F7F7 100%);
+  --modal-claim-address-title-f-s: 16px;
+  --modal-claim-address-title-f-w: 400;
+  --modal-claim-address-title-f-c: #242838;
+  --modal-claim-address-border-w: 0;
+  --modal-claim-address-border-c: transparent;
+  --modal-claim-address-radius: 12px;
+  --modal-claim-address-f-s: 16px;
+  --modal-claim-address-f-w: 400;
+  --modal-claim-address-f-c: #071317;
+  --modal-claim-tooltip-f-s: 14px;
+  --modal-claim-tooltip-f-w: 400;
+  --modal-claim-tooltip-f-c: #242838;
+
+  --modal-claim-countdown-radius: 8px;
+  --modal-claim-countdown-border-w: 2px;
+  --modal-claim-countdown-border-c: #4B6DDE;
+  --modal-claim-countdown-progress-c: #E4E8F7;
+  --modal-claim-countdown-f-s: 16px;
+  --modal-claim-countdown-f-w: 500;
+  --modal-claim-countdown-f-c: #4B6DDE;
+
+  --modal-deal-name-f-s: 20px;
+  --modal-deal-name-f-w: 700;
+  --modal-deal-name-f-c: white;
+  --modal-deal-markdown-bg: #09132C;
+  --modal-deal-markdown-border-w: 0;
+  --modal-deal-markdown-border-c: transparent;
+  --modal-deal-markdown-radius: 24px;
+  --modal-deal-markdown-f-s: 14px;
+  --modal-deal-markdown-f-w: 500;
+  --modal-deal-markdown-f-c: white;
+  --modal-deal-markdown-bold-f-w: 500;
+  --modal-deal-markdown-bold-f-c: white;
+  --modal-deal-consent-f-s: 12px;
+  --modal-deal-consent-f-w: 400;
+  --modal-deal-consent-f-c: white;
+
+  --scrollbar-bg: white;
+  --scrollbar-w: 14px;
+
+  --search-bg: #09132C;
+  --search-f-s: 14px;
+  --search-f-w: 400;
+  --search-f-c: white;
+  --search-option-f-c: white;
+  --search-option-hover-bg: rgba(155, 175, 178, 0.15);
+  --search-radius: 25px;
+  --search-border-w: 1px;
+  --search-border-c: rgba(255, 255, 255, 0.75);
+  --search-placeholder-f-c: #6B7384;
+  --search-scrollbar-bg: white;
+
+  --history-title-f-s: 30px;
+  --history-title-f-w: 400;
+  --history-title-f-c: white;
+
+  --history-back-f-s: 14px;
+  --history-back-f-w: 500;
+  --history-back-f-c: white;
+  --history-back-x-location: 64px;
+
+  --history-table-header-bg: rgba(255, 255, 255, 0.05);
+  --history-table-header-border-c: transparent;
+  --history-table-header-border-w: 0;
+  --history-table-header-radius: 0;
+
+  --history-table-header-f-s: 14px;
+  --history-table-header-f-w: 400;
+  --history-table-header-f-c: rgba(255, 255, 255, 0.60);
+
+  --history-table-row-border-w: 1px;
+  --history-table-row-border-c: rgba(255, 255, 255, 0.30);
+
+  --history-table-row-hover-bg: lightblue;
+  --history-claimed-icon-bg: rgba(255, 255, 255, 0.20);
+  --history-details-btn-bg: rgba(255, 255, 255, 0.20);
+  --history-purchase-name-f-s: 15px;
+  --history-purchase-name-f-w: 500;
+  --history-purchase-name-f-c: rgba(136, 170, 250, 0.02);
+
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  /* For always having scrollbar */
+  min-height: calc(100vh + 1px);
+}
+
+body::-webkit-scrollbar {
+  background: var(--bg);
+  width: var(--scrollbar-w);
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: var(--scrollbar-bg);
+}
+
+.no_scroll {
+  overflow: hidden;
+  margin-right: var(--scrollbar-w);
+}
